@@ -1,0 +1,505 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul,
+ol,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#subSection {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#subSection_group {
+    width: 980px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+.subNav {
+    width: 980px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.subNav ul li {
+    font-size: 10px;
+    float: left;
+    color: #555;
+    letter-spacing: -1px;
+    margin-right: 11px;
+}
+
+.subNav ul li i {
+    font-size: 9px;
+    color: #555555cd;
+    margin-left: 5px;
+
+}
+
+
+.subNav ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #555;
+}
+
+.subTitle {
+    width: 980px;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleLeft {
+    width: 590px;
+    height: 60px;
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.titleLeft h3 {
+    font-size: 20px;
+    color: #333;
+    letter-spacing: -1px;
+
+}
+
+.titleLeft h3 .titleLeft_text {
+    font-size: 15px;
+    color: #333;
+    letter-spacing: -1px;
+    font-weight: lighter;
+}
+
+.titleLeft .titleLeft_text2 {
+    width: 43px;
+    height: 13px;
+    font-size: 5px;
+    border:  1px solid #aaa;
+    border-radius: 3px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.titleRight {
+    width: 200px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.titleRight_text {
+    width: 200px;
+    height: 30px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.titleRight_text span:first-child {
+    font-size: 17px;
+    color: #ef544d;
+    text-shadow: -1px -1px rgb(rgb(208, 208, 208));
+    margin-right: 3px;
+}
+
+.titleRight_text span:nth-child(2) {
+    font-size: 17px;
+    color: #444;
+}
+
+.titleRight_text span:nth-child(3) {
+    font-size: 10px;
+    color: #222;
+    margin: 0 5px;
+}
+
+.titleRight_text span:last-child {
+    font-size: 12px;
+    color: #666;
+    margin-top: 3px;
+}
+
+.subProduct {
+    width: 980px;
+    height: 540px;
+    border-top: 1px solid #666;
+    display: flex;
+    align-items: center;
+}
+
+.subProduct_left {
+    width: 250px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.productImgbox {
+    width: 200px;
+    height: auto;
+}
+
+.productImgbox img {
+    width: 200px;
+    height: 290px;
+    box-shadow: 3px 3px 3px #ddd;
+    object-fit: cover;
+}
+
+.productBtnbox {
+    width: 200px;
+    height: 35px;
+}
+
+.productBtnbox ul {
+    width: 200px;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.productBtnbox ul li {
+    width: 100px;
+    height: 35px;
+    background-color: #fcfcfc;
+    border: 1px solid #c8c8c8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.productDivbox {
+    width: 200px;
+    height: 75px;
+}
+
+.productDivbox ul {
+    width: 200px;
+    height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.productDivbox ul li {
+    width: 200px;
+    height: 35px;
+    background-color: #f7f7f7;
+    font-size: 12px;
+    color: #666;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productDivbox ul li img {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.subProduct_right {
+    width: 730px;
+    height: 540px;
+}
+
+.productInfo {
+    width: 730px;
+    height: 80px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.productInfo p {
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.productInfo ul {
+    width: 730px;
+    height: 15px;
+}
+
+.productInfo ul li {
+    font-size: 12px;
+    color: #333;
+    float: left;
+    margin-right: 8px;
+    line-height: 30px;
+}
+
+.productInfo_box {
+    width: 730px;
+    height: 480px;
+}
+
+.productInfo_box table {
+    width: 650px;
+    height: 420px;
+}
+
+.productInfo_box table tr th {
+    width: 50px;
+    font-size: 12px;
+    color: #444;
+    text-align: left;
+    letter-spacing: -0.3px;
+    float: left;
+    margin-top: 13px;
+}
+
+.productInfo_box table tr td {
+    width: 50px;
+    font-size: 12px;
+    color: #666;
+    padding-left: 20px;
+    letter-spacing: -0.3px;
+}
+
+.productInfo_box table tr th .priceBox {
+    width: 175px;
+    height: 80px;
+    position: relative;
+    border: 1px solid #ef544d;
+    border-top:  3px solid #ef544d;
+    padding: 6px 8px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.productInfo_box table tr th .priceBox::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -11px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #ef544d transparent transparent transparent;
+}
+
+.productInfo_box table tr th .priceBox h4 {
+    font-size: 14px;
+    color: #555;
+    margin-top: 2px;
+}
+
+.productInfo_box table tr th .priceBox h3 {
+    font-size: 17px;
+    color: #ef544d;
+    line-height: 25px;
+}
+
+.productInfo_box table tr th .priceBox span {
+    font-size: 12px;
+    color: #666;
+    font-weight: normal;
+}
+
+.productInfo_box table tr th .priceBox p {
+    font-size: 12px;
+    line-height: 5px;
+    padding: 2px;
+    font-weight: normal;
+}
+
+.productInfo_box table tr .tdCursor {
+    cursor: pointer;
+}
+
+.productInfo_box table tr td i {
+    color: #ef544d;
+}
+
+.productInfo_box table tr td .tdSpan1 {
+    color: #7a4be7;
+    font-weight: bold;
+}
+
+.productInfo_box table tr td .tdSpan2 {
+    color: #17a9ef;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.productInfo_box table tr td .tdSpan3 {
+    color: #ef544d;
+    font-weight: bold;
+}
+
+.productInfo_box table tr td .tdSpan4 {
+    color: #666;
+    font-weight: bold;
+    position: relative;
+}
+
+.productInfo_box table tr td .tdSpan4 img {
+    position: absolute;
+    top: 2px;
+    right: -15px;
+}
+
+.productInfo_box table tr td .tdSpan5 {
+    color: #666;
+    margin-left: 18px;
+    margin-right: 3px;
+    position: relative;
+}
+
+.productInfo_box table tr td .tdSpan5 img {
+    position: absolute;
+    top: 2px;
+    right: -15px;
+}
+
+.productBtn {
+    width: 320px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.productBtn button:first-child {
+    font-size: 13px;
+    color: #fff;
+    width: 135px;
+    height: 40px;
+    background-color: #777;
+    border: 1px solid #777;
+    cursor: pointer;
+}
+
+.productBtn button:nth-child(2) {
+    font-size: 13px;
+    color: #fff;
+    width: 135px;
+    height: 40px;
+    background-color: #ef544d;
+    border: 1px solid #ef544d;
+    cursor: pointer;
+}
+
+.productBtn button:last-child {
+    font-size: 13px;
+    color: #555;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.subContent {
+    width: 980px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.subBanner {
+    width: 980px;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.subBanner_box {
+    width: 160px;
+    height: 120px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid #aaa;
+
+}
+
+.bannerText1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    background-color: #f2f2f2;
+}
+
+.bannerText2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #aaa;
+    background-color: #f9f9f9;
+}
+
+.bannerText3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.bannerText1 p {
+    font-size: 12px;
+    color: #c8c8c8;
+}
+
+.bannerText2 p {
+    font-size: 12px;
+    color: #c8c8c8;
+}
+.bannerText3 p {
+    font-size: 12px;
+    color: #728df7; font-weight: bold; text-decoration: underline;
+}
+
+.bannerSlide {
+    width: 70%;
+    height: 120px;
+    background: #fff;
+    position: relative;
+    border: 1px solid #aaa;
+    border-left: none;
+}
+
+#subMenu_nav {
+    width: 980px;
+    height: 40px;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
